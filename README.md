@@ -1,14 +1,11 @@
-```markdown
 # Aplikasi Penjualan Warmindo Berbasis Flet
 
 Aplikasi ini merupakan **sistem penjualan berbasis desktop (GUI)** yang dibuat menggunakan **Flet (Python framework untuk membuat aplikasi seperti Flutter)**.  
 Aplikasi ini digunakan untuk mengelola transaksi, data menu, pengguna, kasir, pelanggan, serta laporan penjualan pada **Warung Makan Indomie (Warmindo)**.
 
----
-
 ## Fitur Utama
 
-### **Role-based Access**
+### Role-based Access
 Aplikasi memiliki dua jenis hak akses:
 - **Admin**  
   - Kelola Data Menu  
@@ -26,7 +23,7 @@ Aplikasi memiliki dua jenis hak akses:
 
 ---
 
-## **Struktur Proyek**
+## Struktur Proyek
 
 📁 warmindo_app/
 │
@@ -93,8 +90,6 @@ python main_hal_pengguna.py
 ```
 
 > Pastikan kamu sudah login terlebih dahulu agar sesi pengguna (`session_manager`) tersedia.
-
----
 
 ## **Fitur Logout**
 
