@@ -28,8 +28,6 @@ Aplikasi memiliki dua jenis hak akses:
 
 ## **Struktur Proyek**
 
-```
-
 📁 warmindo_app/
 │
 ├── main_hal_pengguna.py        # Halaman utama (dashboard pengguna)
@@ -48,10 +46,6 @@ Aplikasi memiliki dua jenis hak akses:
 │
 └── hal_awal.py                 # Halaman login/awal aplikasi
 
-````
-
----
-
 ## **Penjelasan File `main_hal_pengguna.py`**
 
 File `main_hal_pengguna.py` merupakan inti dari aplikasi yang mengatur:
@@ -59,8 +53,6 @@ File `main_hal_pengguna.py` merupakan inti dari aplikasi yang mengatur:
 - **Manajemen sesi pengguna** (menampilkan username dan hak akses)
 - **Pemanggilan halaman dinamis** berdasarkan peran pengguna
 - **Tombol logout** dengan konfirmasi menggunakan `AlertDialog`
-
----
 
 ## **Alur Program**
 
@@ -71,8 +63,6 @@ File `main_hal_pengguna.py` merupakan inti dari aplikasi yang mengatur:
 5. Jika pengguna menekan tombol **Keluar**, maka akan muncul dialog konfirmasi.
 6. Setelah konfirmasi, sesi dihapus dan pengguna dikembalikan ke halaman login (`hal_awal.py`).
 
----
-
 ## **Contoh Tampilan Navigasi**
 
 | Peran | Menu Navigasi |
@@ -80,7 +70,6 @@ File `main_hal_pengguna.py` merupakan inti dari aplikasi yang mengatur:
 | **Admin** | Beranda, Kelola Menu, Kelola Kasir, Kelola Pengguna, Laporan Transaksi, Profil |
 | **Kasir** | Beranda, Kelola Pelanggan, Transaksi, Riwayat Transaksi, Laporan Transaksi, Profil |
 
----
 
 ## **Instalasi dan Menjalankan Aplikasi**
 
@@ -130,10 +119,4 @@ Proyek ini bersifat **Open Source** untuk keperluan pembelajaran dan pengembanga
 
 **Dibuat dengan ❤️ menggunakan [Flet](https://flet.dev)**
 
-```
-
----
-
-Apakah kamu ingin saya tambahkan juga **preview screenshot layout dashboard Warmindo (mockup Flet UI)** dalam README ini (misalnya dengan gambar “📸 Tampilan Aplikasi”)?  
-Kalau iya, aku bisa bantu buatkan versi dengan contoh layout dan diagram navigasi di README-nya.
 ```
