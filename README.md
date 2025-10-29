@@ -33,21 +33,21 @@ Aplikasi ini dirancang sebagai **sistem kasir berbasis peran (role-based)** deng
 Aplikasi memiliki dua jenis hak akses:
 
 - **Admin**
-  - Kelola Data Menu  
-  - Kelola Kasir  
-  - Kelola Pengguna  
-  - Kelola Laporan Transaksi  
-  - Akses Profil  
+
+  - Kelola Data Menu
+  - Kelola Kasir
+  - Kelola Pengguna
+  - Kelola Laporan Transaksi
+  - Akses Profil
 
 - **Kasir**
-  - Kelola Pelanggan  
-  - Kelola Transaksi  
-  - Lihat Riwayat Transaksi  
-  - Lihat Laporan Transaksi  
-  - Akses Profil  
+  - Kelola Pelanggan
+  - Kelola Transaksi
+  - Lihat Riwayat Transaksi
+  - Lihat Laporan Transaksi
+  - Akses Profil
 
 ---
-
 
 ---
 
@@ -64,20 +64,20 @@ File ini merupakan inti dari aplikasi yang mengatur:
 
 ## Alur Program
 
-1. Saat pengguna berhasil login, data sesi disimpan melalui `session_manager.py`.  
-2. Fungsi `main_hal_pengguna(page)` dijalankan untuk menampilkan halaman utama.  
-3. Sistem menyesuaikan daftar halaman (`pages`) berdasarkan `hak_akses` pengguna.  
-4. Navigasi antar halaman dikontrol menggunakan `NavigationRail`.  
-5. Tombol **Keluar** akan memunculkan dialog konfirmasi.  
-6. Jika dikonfirmasi, sesi dihapus dan pengguna kembali ke halaman login (`hal_awal.py`).  
+1. Saat pengguna berhasil login, data sesi disimpan melalui `session_manager.py`.
+2. Fungsi `main_hal_pengguna(page)` dijalankan untuk menampilkan halaman utama.
+3. Sistem menyesuaikan daftar halaman (`pages`) berdasarkan `hak_akses` pengguna.
+4. Navigasi antar halaman dikontrol menggunakan `NavigationRail`.
+5. Tombol **Keluar** akan memunculkan dialog konfirmasi.
+6. Jika dikonfirmasi, sesi dihapus dan pengguna kembali ke halaman login (`hal_awal.py`).
 
 ---
 
 ## Contoh Tampilan Navigasi
 
-| Peran | Menu Navigasi |
-|-------|----------------|
-| **Admin** | Beranda, Kelola Menu, Kelola Kasir, Kelola Pengguna, Laporan Transaksi, Profil |
+| Peran     | Menu Navigasi                                                                      |
+| --------- | ---------------------------------------------------------------------------------- |
+| **Admin** | Beranda, Kelola Menu, Kelola Kasir, Kelola Pengguna, Laporan Transaksi, Profil     |
 | **Kasir** | Beranda, Kelola Pelanggan, Transaksi, Riwayat Transaksi, Laporan Transaksi, Profil |
 
 ---
@@ -85,15 +85,15 @@ File ini merupakan inti dari aplikasi yang mengatur:
 ## Screenshot Aplikasi
 
 <p align="center">
-  <img src="public/screenshots/dashboard.png" width="600" alt="Halaman Dashboard">
+  <img src="img/dashboard.jpg" width="600" alt="Halaman Dashboard">
 </p>
 
 <p align="center">
-  <img src="public/screenshots/transaksi.png" width="600" alt="Halaman Transaksi">
+  <img src="img/nota.jpg" width="600" alt="Halaman Nota">
 </p>
 
 <p align="center">
-  <img src="public/screenshots/laporan.png" width="600" alt="Halaman Laporan Transaksi">
+  <img src="img/laporan.jpg" width="600" alt="Halaman Laporan Transaksi">
 </p>
 
 ---
